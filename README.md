@@ -1,3 +1,13 @@
+## Notes on my fork
+
+Fork of https://github.com/mzupan/bash-paranoia-curl
+
+The main bash-paranoia.patch wouldn't work for me against the version of bash
+4.1.2 included in RHEL 6.4 (tested on SL 6.4) since it was targetted for the
+3.x series.  This fork is intended to track variants of the main bash-paranoia
+patch for newer OS source rpms.  Haven't tested or tried to tweak the curl
+variant.
+
 ## Overview
 
 There is a great project called Bash Paranoia. Right now their site is busted so I can’t link to it. Its a patch that applies to bash that allows commands to be logged to syslog. I basically took this one step further and added curl support.
